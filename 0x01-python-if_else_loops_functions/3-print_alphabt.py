@@ -1,5 +1,6 @@
-char = 97
-for char in range(97, 123):
-    if char==101 and char == 113:
+#!/usr/bin/python3
+letter = 97
+for letter in range(97, 123):
+    if letter == 101 or letter == 113:
         continue
-    print("{}".format(chr(char)), end='')
+    print("{}".format(chr(letter)), end='')

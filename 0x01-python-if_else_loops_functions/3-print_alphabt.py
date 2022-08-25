@@ -1,4 +1,6 @@
-char = 97
-for char in range(97, 123):
-    if char!= ord("e") and char!= ord("q")
-        print("{}".format(chr(char)), end='')
+#!/usr/bin/python3
+letter = 97
+for letter in range(97, 123):
+    if letter == 101 or letter == 113:
+        continue
+    print("{}".format(chr(letter)), end='')
